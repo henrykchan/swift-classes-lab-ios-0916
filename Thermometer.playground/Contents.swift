@@ -31,7 +31,7 @@ class Thermometer {
     
     var description:String {
         
-        return "The current temperature is \(fahrenheit)°F \(celsius)°C)"
+        return "The current temperature is \(fahrenheit)°F (\(celsius))°C)"
     }
     
     init (fahrenheit:Double) {
